@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>信息</title>
+  <link rel="stylesheet" type="text/css" href='style.css' />
+</head>
+<body class='back'>
+ <div class='menu'>
+   <a href='map.html' class='menuItem menuLeft'>地图</a>
+   <a href='edit.html' class='menuItem menuLeft'>修改信息</a>
+   <a href='create.html' class='menuItem menuLeft hidden'>批量创建</a>
+   <a href='group.html' class='menuItem menuLeft hidden'>修改群组</a>
+   <p class='menuItem menuRight'>关于</p>
+   <a href='key.html' class='menuItem menuName menuRight'>管理</a>
+   <p class='menuRight menuSearchItem'><input type='text' class='menuSearch' placeholder='搜索'/></p>
+ </div>
+  <div class='group'>
+    <input type='text' class='groupInput' />
+    <button class='groupSure groupBtn'>确&nbsp;定</button>
+    <div class='create hide'>
+      <input type='text' class='createInput' />
+      <span class='createRange'>~</span>
+      <input type='text' class='createInput' />
+      <button class='createBtn'>添&nbsp;加</button>
+    </div>
+  </div>
+  <script src='ajax.js'></script>
+  <script src='menu.js'></script>
+  <script src='group.js'></script>
+</body>
+</html>

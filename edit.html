@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>信息</title>
+  <link rel="stylesheet" type="text/css" href='style.css' />
+</head>
+<body class='back'>
+ <div class='menu'>
+   <a href='map.html' class='menuItem menuLeft'>地图</a>
+   <a href='edit.html' class='menuItem menuLeft'>修改信息</a>
+   <a href='create.html' class='menuItem menuLeft hidden'>批量创建</a>
+   <a href='group.html' class='menuItem menuLeft hidden'>修改群组</a>
+   <p class='menuItem menuRight'>关于</p>
+   <a href='key.html' class='menuItem menuName menuRight'>管理</a>
+   <p class='menuRight menuSearchItem'><input type='text' class='menuSearch' placeholder='搜索'/></p>
+ </div>
+ <div class='edit'>
+   <img class='editImg' src='img/head.png' />
+   <div class='editItem'><span class='editItemName'>用户名</span><input class='editItemInput' type='text' /></div>
+     <div class='editItem'><span class='editItemName'>姓名</span><input class='editItemInput' type='text' /></div>
+       <div class='editItem'><span class='editItemName'>联系方式</span><input class='editItemInput' type='text' /></div>
+         <div class='editItem'><span class='editItemName'>地点</span><input class='editItemInput' type='text' /></div>
+   <div class='editItem'><span class='editItemName'>心情</span><input class='editItemInput editMsg' type='text' /></div>
+   <div class='editItem'><span class='editItemName'></span><button class='editItemInput editBtn'>确&nbsp;认</button></div>
+ </div>
+ <script src='ajax.js'></script>
+ <script src='menu.js'></script>
+ <script src='edit.js'></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html class='mapArea'>
+<head>
+  <meta charset='utf-8' />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=oT0k9GbmuX1eOS3axC4OzulV"></script>
+  <script src='CurveLine.js'></script>
+
+  <script type="text/javascript" src="http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js"></script>
+
+  <script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+  <title>主页</title>
+  <link rel="stylesheet" type="text/css" href='style.css' />
+</head>
+<body class='mapArea'>
+ <div class='menu'>
+   <a href='map.html' class='menuItem menuLeft'>地图</a>
+   <a href='edit.html' class='menuItem menuLeft'>修改信息</a>
+   <a href='create.html' class='menuItem menuLeft hidden'>批量创建</a>
+   <a href='group.html' class='menuItem menuLeft hidden'>修改群组</a>
+   <p class='menuItem menuRight'>关于</p>
+   <a href='key.html' class='menuItem menuName menuRight'>管理</a>
+   <p class='menuRight menuSearchItem'><input type='text' class='menuSearch' placeholder='搜索'/></p>
+ </div>
+ <div id="allmap"></div>
+ <script src='ajax.js'></script>
+ <script src='menu.js'></script>
+ <script src='map.js'></script>
+</body>
+</html>
